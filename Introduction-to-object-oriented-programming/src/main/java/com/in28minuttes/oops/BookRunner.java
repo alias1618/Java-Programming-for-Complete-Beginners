@@ -6,8 +6,8 @@ public class BookRunner {
         Book effectiveJava = new Book();
         Book cleanCode = new Book();
 
-        artOfComputerProgramming.noOfCopied = 100;
-        effectiveJava.noOfCopied = 50;
-        cleanCode.noOfCopied = 45;
+        artOfComputerProgramming.setNoOfCopied(100);
+        effectiveJava.setNoOfCopied(50);
+        cleanCode.setNoOfCopied(45);
     }
 }
