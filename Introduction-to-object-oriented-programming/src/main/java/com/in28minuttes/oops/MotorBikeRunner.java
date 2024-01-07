@@ -7,5 +7,11 @@ public class MotorBikeRunner {
 
         ducati.start();
         honda.start();
+
+        ducati.setSpeed(100);
+        honda.setSpeed(80);
+
+        ducati.setSpeed(20);
+        honda.setSpeed(0);
     }
 }
