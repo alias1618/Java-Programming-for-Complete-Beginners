@@ -9,10 +9,11 @@ public class MotorBike {
     }
 
     public void setSpeed(int speed) {
+        if(speed > 0)
         //System.out.println(speed);
         //System.out.println(this.speed);
         this.speed = speed;
-        System.out.println(speed);
+        //System.out.println(speed);
         System.out.println(this.speed);
     }
 
