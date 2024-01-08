@@ -14,7 +14,16 @@ public class MotorBike {
         //System.out.println(this.speed);
         this.speed = speed;
         //System.out.println(speed);
-        System.out.println(this.speed);
+        //System.out.println(this.speed);
+    }
+
+    public void increaseSpeed(int howMuch){
+        this.speed = this.speed + howMuch;
+    }
+
+    public void decreaseSpeed(int howMuch){
+        if(this.speed > howMuch)
+        this.speed = this.speed - howMuch;
     }
 
     void start(){
