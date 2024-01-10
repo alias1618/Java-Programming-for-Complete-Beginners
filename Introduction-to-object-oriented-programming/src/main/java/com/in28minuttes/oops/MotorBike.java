@@ -18,12 +18,15 @@ public class MotorBike {
     }
 
     public void increaseSpeed(int howMuch){
-        this.speed = this.speed + howMuch;
+        setSpeed(this.speed + howMuch);
     }
 
     public void decreaseSpeed(int howMuch){
-        if(this.speed > howMuch)
-        this.speed = this.speed - howMuch;
+        //if(this.speed - howMuch > 0)  老師寫的方式
+        //if(this.speed > howMuch)      我寫的方式
+        //另一種方式
+        setSpeed(this.speed - howMuch);
+        //this.speed = this.speed - howMuch;
     }
 
     void start(){
