@@ -9,9 +9,15 @@ public class MyChar {
     }
 
     public static void printLowerCaseAlphabets() {
+        for(char x = 'a'; x <= 'z'; x++){
+            System.out.println(x);
+        }
     }
 
     public static void printUpperCaseAlphabets() {
+        for(char x = 'A'; x <= 'Z'; x++){
+            System.out.println(x);
+        }
     }
 
     public boolean isVowel() {
@@ -38,6 +44,13 @@ public class MyChar {
 
     public boolean isDigit() {
         if(x >= 48 && x <= 57){     //between '0' and '9'
+            return true;
+        }
+        return false;
+    }
+
+    public boolean isConsonant() {
+        if(isAlphabet() && !isVowel()){
             return true;
         }
         return false;
