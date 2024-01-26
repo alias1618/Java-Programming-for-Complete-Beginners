@@ -8,6 +8,6 @@ public class PuzzlesRunner {
         //puzzles.puzzle3();
         //puzzles.puzzle4();
         //puzzles.puzzle5();
-        puzzles.puzzle6();
+        //puzzles.puzzle6();
     }
 }
