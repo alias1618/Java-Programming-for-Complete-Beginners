@@ -1,4 +1,4 @@
-package com.conditionals.in.java.programming;
+package com.conditionals.in.java.programming.ifSteament;
 
 public class ifStementRuinner {
 
