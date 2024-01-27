@@ -1,4 +1,4 @@
-package com.conditionals.in.java.programming.Exercises.set3;
+package com.conditionals.in.java.programming.Exercises.set3.Student.Grades.A.to.F.based.on.Marks;
 
 public class StudentRunner {
     public static void main(String[] args) {
