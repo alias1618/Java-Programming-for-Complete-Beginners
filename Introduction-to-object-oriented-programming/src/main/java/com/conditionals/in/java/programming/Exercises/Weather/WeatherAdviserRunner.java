@@ -1,4 +1,4 @@
-package com.conditionals.in.java.programming.Exercises.Weather.Advisor;
+package com.conditionals.in.java.programming.Exercises.Weather;
 
 public class WeatherAdviserRunner {
     public static void main(String[] args) {
