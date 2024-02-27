@@ -24,6 +24,7 @@ public class NumberUtils {
             lastnumber = number % 10;
             reversednumber = reversednumber *10 + lastnumber;
             number = number / 10;
+            System.out.format("lastnumber-%d number-%d reversednumber-%d", lastnumber, number, reversednumber).println();
         }
         return reversednumber;
     }
