@@ -7,7 +7,10 @@ public class Student {
     private String name;
     private int[] marks;
 
-    public Student(String name, int[] marks){
+    //這是一種寫法，搭配 Student student = new Student("Ranga", marks);
+    //public Student(String name, int[] marks){
+    //這是另一種寫法，搭配 Student student = new Student("Ranga", 97, 98, 100);
+    public Student(String name, int... marks){
         this.name = name;
         this.marks = marks;
     }
