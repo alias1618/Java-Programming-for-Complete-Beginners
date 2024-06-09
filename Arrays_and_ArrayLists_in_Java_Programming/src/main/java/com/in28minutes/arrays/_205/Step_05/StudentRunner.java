@@ -1,4 +1,4 @@
-package com.in28minutes.arrays._205.Step05;
+package com.in28minutes.arrays._205.Step_05;
 
 import java.math.BigDecimal;
 
