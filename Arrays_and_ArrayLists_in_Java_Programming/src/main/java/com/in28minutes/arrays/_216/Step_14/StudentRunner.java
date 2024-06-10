@@ -1,6 +1,6 @@
 package com.in28minutes.arrays._216.Step_14;
 
-import com.in28minutes.arrays._205.Step_05.Student;
+import com.in28minutes.arrays._216.Step_14.Student;
 
 import java.math.BigDecimal;
 
@@ -21,6 +21,12 @@ public class StudentRunner {
         System.out.println("average: " + average);
 
         System.out.println(student);
+
+        student.addNewMark(35);
+
+        System.out.println(student);
+
+        student.removeMarkAtIndex(1);
 
     }
 }
