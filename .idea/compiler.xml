@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Introduction-to-object-oriented-programming" />
         <module name="loops" />
+        <module name="Introduction-to-object-oriented-programming" />
+        <module name="object-oriented-programming-2" />
         <module name="FirstJavaProjectWithin28Minutes" />
       </profile>
     </annotationProcessing>
