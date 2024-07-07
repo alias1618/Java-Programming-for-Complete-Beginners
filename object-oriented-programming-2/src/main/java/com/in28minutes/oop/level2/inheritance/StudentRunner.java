@@ -6,7 +6,7 @@ public class StudentRunner {
 //        student.setName("Ranga");
 //        student.setEmail("in28minutes@gmail.com");
 
-        Employee employee = new Employee();
+        Employee employee = new Employee("Ranga", "Programmer Analyst");
         employee.setName("Ranga");
         employee.setEmail("Ranga@in28minutes.com");
         employee.setPhoneNumber("123-456-7890");
