@@ -1,4 +1,4 @@
-package com.in28minutes.oop.level2.interfaces;
+package com.in28minutes.oop.level2.interfaces._1;
 
 public interface GamingConsole {
     public void up();
